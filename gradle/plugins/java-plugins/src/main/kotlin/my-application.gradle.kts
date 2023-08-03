@@ -3,6 +3,16 @@ plugins{
     id("my-java-base")
 }
 
+tasks.register<JarCount>("countJars"){
+    group = "My Group"
+    description = "Counts!"
+
+    allJars.from(tasks.jar)
+    allJars.from(configurations.runtimeClasspath)
+
+    countFile.set(layout.buildDirectory.file("gen/count.txt"))
+}
+
 tasks.register<Zip>("bundle"){
     group = "My Group"
     description = "Package it all!!"
