@@ -9,13 +9,9 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
     }
 
-    public void TestA()
-    {
-        String s = "sdfsdf";
-    }
+    public void TestA() {String s = "sdfsdf";}
 
-    public void TestB()
-    {
-        String s = "sdfsdf";
-    }
+    public void TestB() {String s = "sdfsdf";}
+
+    public void TestC() {String s = "sdfsdf";}
 }
