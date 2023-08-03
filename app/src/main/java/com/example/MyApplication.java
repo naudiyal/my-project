@@ -13,4 +13,9 @@ public class MyApplication {
     {
         String s = "sdfsdf";
     }
+
+    public void TestB()
+    {
+        String s = "sdfsdf";
+    }
 }
