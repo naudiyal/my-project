@@ -9,9 +9,8 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
     }
 
-    public void test1()
+    public void TestA()
     {
-        String a = "nothing";
+        String s = "sdfsdf";
     }
-
 }
