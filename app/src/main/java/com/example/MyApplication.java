@@ -6,5 +6,6 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 2 3"));
         new PrintService().print(new MessageModel(":( :( :( 1 2 3"));
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
     }
 }
