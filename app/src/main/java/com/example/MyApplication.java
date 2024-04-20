@@ -8,6 +8,12 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1 "));
         new PrintService().print(new MessageModel("Hi!! :) :) :) 12121212 "));
+
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 333333 "));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 444444 "));
+
+
+
     }
     public void TestA() {String s = "sdfsdf";}
     public void TestB() {String s = "sdfsdf";}
