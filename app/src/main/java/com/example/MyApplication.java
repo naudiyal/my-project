@@ -9,6 +9,12 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
         new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) 1234567"));
 
     }
     public void TestA() {String s = "sdfsdf";}
