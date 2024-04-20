@@ -5,6 +5,7 @@ public class MyApplication {
     {
         new PrintService().print(new MessageModel("From Remote !!!!!"));
         new PrintService().print(new MessageModel("From Remote !!!!!"));
+        new PrintService().print(new MessageModel("From Remote !!!!!"));
     }
     public void TestA() {String s = "sdfsdf";}
     public void TestB() {String s = "sdfsdf";}
