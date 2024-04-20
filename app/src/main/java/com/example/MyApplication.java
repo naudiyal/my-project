@@ -13,7 +13,7 @@ public class MyApplication {
         new PrintService().print(new MessageModel("Hi!! :) :) :) 444444 "));
 
 
-
+main();
     }
     public void TestA() {String s = "sdfsdf";}
     public void TestB() {String s = "sdfsdf";}
