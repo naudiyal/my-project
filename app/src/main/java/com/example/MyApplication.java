@@ -4,6 +4,9 @@ public class MyApplication {
     public static void main(String[] args)
     {
         new PrintService().print(new MessageModel("Hi!! :) :) :) A B C"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) A B C"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) A B C"));
+        new PrintService().print(new MessageModel("Hi!! :) :) :) A B C"));
 
     }
     public void TestA() {String s = "sdfsdf";}
