@@ -3,9 +3,7 @@ package com.example;
 public class MyApplication {
     public static void main(String[] args)
     {
-        new PrintService().print(new MessageModel("From Remote !!!!!"));
-        new PrintService().print(new MessageModel("From Remote 123 !!!!!"));
-        new PrintService().print(new MessageModel("From Remote ABC !!!!!"));
+        new PrintService().print(new MessageModel("Local !!!!!"));
     }
     public void TestA() {String s = "sdfsdf";}
     public void TestB() {String s = "sdfsdf";}
