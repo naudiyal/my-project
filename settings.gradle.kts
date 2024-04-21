@@ -38,6 +38,7 @@ dependencyResolutionManagement{
 }
 
 //Following are sub projects
+include("data-model1")//app
 include("app")//app
 include("business-logic")//business-logic
 include("data-model")//data-model
