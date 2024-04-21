@@ -3,8 +3,8 @@ package com.example;
 public class MyApplication {
     public static void main(String[] args)
     {
-        new PrintService().print(new MessageModel("From Remote Master!!!!!"));
-        new PrintService().print(new MessageModel("From Local Master!!!!!"));
+        new PrintService().print(new MessageModel("MessageModel From Remote Master!!!!!"));
+        new PrintService().print(new MessageModel1("MessageModel1 From Local Master!!!!!"));
     }
     public void TestA() {String s = "sdfsdf";}
     public void TestB() {String s = "sdfsdf";}

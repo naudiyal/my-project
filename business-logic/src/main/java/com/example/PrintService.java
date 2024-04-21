@@ -7,4 +7,9 @@ public class PrintService {
         String message = StringUtils.trim(model.getMessage());
         System.out.println(message);
     }
+
+    public void print(MessageModel1 model){
+        String message = StringUtils.trim(model.getMessage());
+        System.out.println(message);
+    }
 }

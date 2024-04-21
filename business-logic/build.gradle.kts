@@ -17,4 +17,6 @@ dependencies{
     // Better to not define version here but put them in a central place to avoid version conflicts
     //by defining different versions for the same component
     implementation("org.apache.commons:commons-lang3:3.12.0")
+    implementation(project(mapOf("path" to ":data-model1")))
+    implementation(project(mapOf("path" to ":data-model1")))
 }

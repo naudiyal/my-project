@@ -17,4 +17,6 @@ dependencies{
     //scope is implementation; local project
     implementation(project(":data-model"))
     implementation(project(":business-logic"))
+    implementation(project(mapOf("path" to ":data-model1")))
+    implementation(project(mapOf("path" to ":data-model1")))
 }
